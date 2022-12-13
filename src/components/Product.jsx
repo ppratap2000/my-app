@@ -1,17 +1,17 @@
 import React from "react";
 import "../styles/Product.css";
 
-const Product = ({id,title,image,price,rating}) => {
+const Product = ({ id, title, image, price, rating }) => {
   return (
     <div className="product__main">
       <div className="product__info">
         <p>{title}</p>
         <p className="product__price"> <small>$</small>
-                    <strong>{price}</strong></p>
+          <strong>{price}</strong></p>
         <div className="product__rating">
-        {Array(rating).fill().map((_,i)=>(
-          <p>⭐</p>
-        ))}
+          {Array(rating).fill().map((_, i) => (
+            <p>⭐</p>
+          ))}
         </div>
       </div>
       <img
