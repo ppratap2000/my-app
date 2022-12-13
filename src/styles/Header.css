@@ -61,7 +61,12 @@
 }
 
 .nav_itemLineOne {
+    text-decoration: solid;
     font-size: 10px;
+    display: flex;
+    flex-direction: row;
+   
+    
 }
 
 .nav_itemLineTwo {

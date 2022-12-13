@@ -1,7 +1,6 @@
-.product {
+.product__main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-end;
     margin: 10px;
     padding: 20px;
@@ -11,20 +10,28 @@
     background-color: white;
     z-index: 1;
 }
-.product__main{
 
-    background-color: #ff9f00;
+.product__button__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .product__rating {
     display: flex;
+    flex-direction: row ;
+
+    margin-top: -2px;
 }
 
 .product__img {
     max-height: 200px;
     width: 100%;
     object-fit: contain;
-    margin: 20px 0 0 15px;
+    margin: 48px 0 0 1px;
+    align-items: center;
+    justify-content: center;
 }
 
 .product__button {
