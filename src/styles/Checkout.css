@@ -6,23 +6,17 @@
 }
 
 .checkout__ad {
-    width: 30%;
+    width: 100%;
     margin-bottom: 10px;
 }
 
 .checkout__title {
-    
-    background-color: white;
-    padding: 17px 65px 2px 0px;
     margin-right: 10px;
-    border-bottom: 1px solid rgb(35, 34, 34);
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 .checkout__left {
     display: flex;
     flex-direction: column;
 }
-/* .checkout__right{
-    position: absolute;
-  right: -50px;
-} */

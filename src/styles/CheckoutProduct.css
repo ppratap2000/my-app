@@ -2,7 +2,6 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: white;
 }
 
 .checkoutProduct__info {
@@ -11,12 +10,8 @@
 
 .checkoutProduct__info__button {
     background: #ff9f00;
-    border-radius: 2px;
-    width: 50%;
-    height: 30px;
     border: 1px solid;
     margin-top: 10px;
-    
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
 }

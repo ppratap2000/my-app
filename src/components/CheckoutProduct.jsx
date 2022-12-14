@@ -16,8 +16,9 @@ const CheckoutProduct = () => {
                 <div className="checkoutProduct__rating">
                     ⭐⭐
                 </div>
+                <button className='checkoutProduct__info__button' >Remove from Basket</button>
             </div>
-            <button className='checkoutProduct__info__button' >Remove from Basket</button>
+
 
 
 
